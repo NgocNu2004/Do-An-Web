@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(anh.png);
+}
+                                                                                 
+/* CSS cho phần menu ngang*/
+.menu-ngang {
+  display: flex;
+  width: 100%;
+  height: 80px;
+  border: 1px solid rgb(0, 0, 0);
+  position: fixed;
+  background-color: white;
+}
+.menu-ngang-logo-va-tim-kiem-phan-ben-trong button a {
+  text-decoration: none;
+  color: white;
+}
+.menu-ngang .menu-ngang-cac-menu {
+  background-color: white;
+  width: 60%;
+  height: 98%;
+}
+.menu-ngang .menu-ngang-cac-menu ul {
+  display: flex;
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.menu-ngang-cac-menu ul li:hover a {
+  border-top: 5px solid rgb(255, 0, 0);
+  color: red;
+}
+.menu-ngang-cac-menu ul li {
+  text-decoration: none;
+  list-style: none;
+  height: 98%;
+  display: flex;
+  align-items: center;
+}
+.menu-ngang-cac-menu ul li a {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+}
+.menu-ngang-logo-trai {
+  width: 20%;
+  height: 98%;
+  display: flex;
+  align-items: center;
+}
+.menu-ngang-logo-trai img {
+  height: 70%;
+  margin-left: 50%;
+}
+.menu-ngang-logo-va-tim-kiem {
+  width: 20%;
+  height: 98%;
+  display: flex;
+  align-items: center;
+}
+.menu-ngang-logo-va-tim-kiem .menu-ngang-logo-va-tim-kiem-phan-ben-trong {
+  height: 50%;
+  display: flex;
+  align-items: center;
+  border-left: 0.1px solid black;
+}
+.menu-ngang-logo-va-tim-kiem-phan-ben-trong button {
+  background-color: rgb(255, 0, 0);
+  align-items: center;
+  width: 30%;
+  height: 120%;
+  border: none;
+  margin-left: 10%;
+  color: aliceblue;
+  font-family: "Open Sans", sans-serif;
+}
+.menu-ngang-logo-va-tim-kiem-phan-ben-trong img {
+  width: 7%;
+  margin-left: 5%;
+}
+.anh-bia {
+  width: 80%;
+  display: top;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+/* CSS cho phần menu phụ*/
+.menu-phu-giua {
+  width: 100%;
+  height: 90px;
+  background-color: white;
+  font-family: "Open Sans", sans-serif;
+  position: relative;
+}
+.menu-phu-giua ul {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  border-top: 0.5px solid rgb(0, 0, 0);
+  background-color: white;
+  margin-top: 20px;
+  align-items: center;
+}
+.menu-phu-giua ul li {
+  display: flex;
+  text-decoration: none;
+  color: darkgoldenrod;
+}
+.menu-phu-giua ul li a {
+  text-decoration: none;
+}
+/* CSS cho phần câu chuyện*/
+.cau-chuyen {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cau-chuyen hr {
+  background-color: rgb(255, 0, 51);
+  height: 2px;
+}
+.cau-chuyen h4 {
+  font-family: "Open Sans", sans-serif;
+  color: darkgoldenrod;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.cau-chuyen p {
+  font-family: "Open Sans", sans-serif;
+  color: rgb(0, 0, 0);
+  line-height: 2.5;
+}
+.cau-chuyen b {
+  font-family: "Open Sans", sans-serif;
+  color: rgb(249, 0, 0);
+  line-height: 2.5;
+}
+.cau-chuyen .su-menh {
+  display: flex;
+}
+.cau-chuyen .su-menh img {
+  width: 40%;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.su-menh-thong-tin {
+  width: 40%;
+  margin-top: 20px;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+}

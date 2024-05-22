@@ -1,0 +1,230 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  /* background-image: url(anh.png); */
+}
+
+/* CSS cho phần menu ngang*/
+.menu-ngang {
+  display: flex;
+  width: 100%;
+  height: 80px;
+  border: 1px solid rgb(0, 0, 0);
+  position: fixed;
+  background-color: white;
+  top: 0;
+}
+.menu-ngang-logo-va-tim-kiem-phan-ben-trong button a {
+  text-decoration: none;
+  color: white;
+}
+.menu-ngang .menu-ngang-cac-menu {
+  background-color: white;
+  width: 60%;
+  height: 98%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.menu_no_dropdown{
+  display: flex;
+  justify-content: space-evenly;
+  height: 100%;
+}
+.menu-ngang .menu-ngang-cac-menu ul {
+
+  background-color: white;
+  width: 100%;
+}
+.menu-ngang-cac-menu ul li:hover{
+  border-top: 5px solid rgb(255, 0, 0);
+}
+.menu-ngang-cac-menu ul li:hover a{
+  color: red;
+}
+.menu-ngang-cac-menu ul li {
+  border-top: 5px solid white;
+  text-decoration: none;
+  list-style: none;
+  height: 98%;
+  display: flex;
+  align-items: center;
+  padding:8px 0;
+}
+.menu-ngang-cac-menu ul li a {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin-left: 12px;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  color: #333;
+}
+.menu-ngang-logo-trai {
+  width: 20%;
+  height: 98%;
+  display: flex;
+  align-items: center;
+}
+.menu-ngang-logo-trai img {
+  height: 70%;
+  margin-left: 50%;
+}
+.menu-ngang-logo-va-tim-kiem {
+  width: 20%;
+  height: 98%;
+  display: flex;
+  align-items: center;
+}
+.menu-ngang-logo-va-tim-kiem .menu-ngang-logo-va-tim-kiem-phan-ben-trong {
+  height: 50%;
+  display: flex;
+  align-items: center;
+  border-left: 0.1px solid black;
+}
+.menu-ngang-logo-va-tim-kiem-phan-ben-trong button {
+  background-color: rgb(255, 0, 0);
+  align-items: center;
+  width: 30%;
+  height: 120%;
+  border: none;
+  margin-left: 10%;
+  color: aliceblue;
+  font-family: "Open Sans", sans-serif;
+}
+.menu-ngang-logo-va-tim-kiem-phan-ben-trong img {
+  width: 7%;
+  margin-left: 5%;
+}
+.anh-bia {
+  width: 80%;
+  display: top;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+/* CSS cho phần menu phụ*/
+.menu-phu-giua {
+  width: 100%;
+  height: 90px;
+  background-color: white;
+  font-family: "Open Sans", sans-serif;
+  position: relative;
+}
+.menu-phu-giua ul {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  border-top: 0.5px solid rgb(0, 0, 0);
+  background-color: white;
+  margin-top: 20px;
+  align-items: center;
+}
+.menu-phu-giua ul li {
+  display: flex;
+  text-decoration: none;
+  color: darkgoldenrod;
+}
+.menu-phu-giua ul li a {
+  text-decoration: none;
+}
+/* CSS cho phần các lợi ích*/
+.cac-loi-ich {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-evenly;
+  flex-direction: row;
+  position: relative;
+  z-index: 2;
+}
+.cac-loi-ich1 {
+  display: flex;
+  font-family: "Open Sans", sans-serif;
+}
+.cac-loi-ich h3 {
+  color: aliceblue;
+  font-family: "Open Sans", sans-serif;
+  margin-left: 20px;
+}
+.cac-loi-ich p {
+  color: rgb(0, 0, 0);
+  font-family: "Open Sans", sans-serif;
+  margin-left: 20px;
+  margin-top: 5px;
+  font-size: 12px;
+}
+.cac-loi-ich-o-chu-thong-tin {
+  display: flex;
+  width: 47%;
+  height: 20%;
+  margin-bottom: 10px;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  margin-top: 20px;
+}
+
+.cac-loi-ich-banner-1 {
+  width: 100%;
+  height: 40%;
+  background-color: rgb(255, 0, 0);
+  display: flex;
+  align-items: center;
+}
+.cac-loi-ich-banner-1 {
+  width: 100%;
+  height: 40%;
+  background-color: rgb(149, 255, 0);
+  display: flex;
+  align-items: center;
+}
+.cac-loi-ich-banner-2 {
+  width: 100%;
+  height: 40%;
+  background-color: rgb(0, 225, 255);
+  display: flex;
+  align-items: center;
+}
+.cac-loi-ich-banner-3 {
+  width: 100%;
+  height: 40%;
+  background-color: rgb(234, 0, 255);
+  display: flex;
+  align-items: center;
+}
+.cac-loi-ich-banner-4 {
+  width: 100%;
+  height: 40%;
+  background-color: rgb(255, 230, 0);
+  display: flex;
+  align-items: center;
+}
+.cac-loi-ich-banner-5 {
+  width: 100%;
+  height: 40%;
+  background-color: rgb(255, 0, 0);
+  display: flex;
+  align-items: center;
+}
+.cac-loi-ich-banner-6 {
+  width: 100%;
+  height: 40%;
+  background-color: rgb(255, 0, 0);
+  display: flex;
+  align-items: center;
+}
+.anhnen {
+  position: absolute;
+  margin-top: -500px;
+  width: 100%;
+  z-index: 1;
+}
+.icon>i{
+  font-size: 38px;
+}

@@ -1,0 +1,431 @@
+main{
+    /* ko sai dc sticky phai them*/
+    top: 0;
+    position: sticky;
+    position: -webkit-sticky;
+    z-index: 2;
+}
+.bxs-down-arrow{
+    font-size: 10px;
+    
+}
+
+#menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+  }
+
+
+
+*{margin: 0;
+	padding: 0;
+}
+	body {
+font-family: sans-serif; color: #222; }
+
+.menungang
+{
+    display:flex ;
+    top: 0;
+    margin-top: 1000px;
+    width: 100%;
+    margin-bottom:2 px;
+    position: fixed; 
+    box-shadow: 0 1px 2px 0 rgba(60,64,67, 0.1), 0px 2px 8px 4px rgba(60,64, 67, 0.2);
+    top: 0;
+} 
+
+.menu-ngang-logo-va-tim-kiem {
+    width: 20%;
+    height: 98%;
+    display: flex;
+    align-items: center;
+  }
+  .menu-ngang-logo-va-tim-kiem .menu-ngang-logo-va-tim-kiem-phan-ben-trong {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-left: 0.1px solid black;
+  }
+  .menu-ngang-logo-va-tim-kiem-phan-ben-trong button {
+    background-color: rgb(255, 0, 0);
+    align-items: center;
+    width: 100%;
+    height: 120%;
+    border: none;
+    margin-left: 10%;
+    color: aliceblue;
+    font-family: "Open Sans", sans-serif;
+  }
+  .menu-ngang-logo-va-tim-kiem-phan-ben-trong button:hover{
+    background-color:rgb(113, 110, 110);
+    transition: 0.5s;
+}
+  .menu-ngang-logo-va-tim-kiem-phan-ben-trong i {
+    width: 22%;
+    height: auto;
+    margin-left: 8%;
+    font-size: 1.5em;
+    color:rgb(46, 44, 44) ;
+    opacity: 1; text-decoration: none;
+    padding:20px;
+    background-color:#fba8da;
+    margin:20px;
+    border-radius: 70%;
+    align-items: center;}
+.menu-ngang-logo-va-tim-kiem-phan-ben-trong i:hover{
+        background-color:rgb(237, 48, 14);
+        transition: 0.5s;
+ }
+ 
+#menungang img
+{
+    width: 70px;
+} 
+#menungang ul
+{
+    display:flex ;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+}
+#menungang ul li
+{
+ text-decoration: none;
+ list-style: none;
+ margin-right: 5.6rem;
+ 
+}
+#menungang ul li a
+{
+ text-decoration: none;
+ color: rgb(246, 0, 0);
+}
+
+
+
+#menungang ul li a:hover {
+background: #ec400b; 
+color: #0C0A0A; }
+#menungang ul li > .sub-menungang {
+display: none;
+position: absolute; }
+#menungang li {
+position: relative; }
+.sub-menungang {
+display: none;
+position: absolute; }
+#menungang ul li:hover .sub-menungang{
+display: block;  }
+.bia {
+display: flex;
+    width: 100%;
+    height: 20%;
+    overflow: hidden;
+    position: absolute;
+}
+.show{
+    display: flex;
+    position: relative;
+    overflow:hidden;
+    width: 640px;
+    height:325px;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 20px;
+    
+}
+.slide{
+    position: absolute;
+    width: 640px;
+    height:325px;
+    display: flex;
+    transition: all 0.8s ease;
+}
+.hinh2 {
+    width: 640px;
+    height:325px;
+    object-fit: contain;
+}
+.btn:hover{
+    color: #0C0A0A;
+}
+.btn{
+    font-size: 70px;
+    color: #faefef;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.btn-left{
+    left:0;
+}
+.btn-right{
+    right: 0;
+}
+.slideshow {
+    float: left;
+    margin-right: 20px;
+
+.sanpham {
+    position: relative;
+    width: 500px;
+    height: 500px;
+}
+
+.sanpham img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: moveImage 2s linear infinite alternate;
+}
+
+/*@keyframes moveImage {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(200px); /* Hoặc bất kỳ giá trị nào bạn muốn */
+    }
+
+.tuade{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    
+}
+.h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.hinh3{
+    width: 40%;
+    height: 40%;
+    display: flex;
+    justify-content: left;
+}
+.hinh4{
+    width: 40%;
+    height: 40%;
+    display: flex;
+    justify-content: right;
+
+}
+.thongtin{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+background-color: antiquewhite;
+width: 100%;
+height: 150px;}
+.nut{
+    background-color: rgb(248, 228, 45);
+    color:white;
+    margin-top: 50px;
+    margin-right: 200px;
+    padding:10px
+    
+}
+.Block_text{
+    display: flex;
+}
+.menu{
+   width: 80%; 
+   height: 30%;
+   margin-left: 150px;
+   display: flex;
+   justify-content: center;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+.hinh5{
+    width: 80%; 
+   height: 30%;
+}
+.list_icon{
+    font-size: 30px;
+    color: #ba1588;
+}
+.cuoi{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 0px;
+background-color: rgb(255, 160, 220);
+width: 100%;
+height: 100px;}
+.list_icon{
+    display:flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.list_icon a {
+    text-decoration: none;
+    padding:10px;
+    background-color:#d5d1d4;
+    margin:10px;
+    border-radius: 50%;
+}
+.list_icon a i{
+    font-size: 1em;
+    color:black ;
+    opacity: 0.9;
+}
+.list_icon a:hover{
+    background-color:black;
+    transition: 0.5s;
+}
+.list_icon a:hover i{
+    color: red;
+    transition: 0.5s;
+}
+
+footer{
+    background-color: #fbcfec;
+    height: 100%;
+   width: 100%;
+}
+*{
+    padding:10;
+    margin:10;
+    box-sizing: border-box;
+    font: time-new-roman;
+}
+.container{
+    width:100%;
+   
+    padding:70px   50px  20px;
+}
+.icon{
+    display:flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.icon a {
+    text-decoration: none;
+    padding:10px;
+    background-color:#CFCFCF;
+    margin:10px;
+    border-radius: 50%;
+    
+}
+.icon a i{
+    font-size: 2em;
+    color:black ;
+    opacity: 0.9;
+}
+.icon a:hover{
+    background-color:black;
+    transition: 0.5s;
+}
+.icon a:hover i{
+    color: red;
+    transition: 0.5s;
+}
+.end {
+    display: flex;
+    justify-content: center;
+    padding:20px;
+    background-color: #1a1616;
+   width:auto;
+}
+.end p{
+    color: white;
+}
+.container h2{
+    display: flex;
+    justify-content: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.container a{
+    text-decoration: none;
+    color: black;
+}
+.contact-info{
+    width: 100%;
+} 
+
+.loiich{
+    width:150px;
+    height: 100px;
+    align-content: center;
+    display: flex;
+    margin-top: 30px;
+    justify-self: center;
+    margin-left: 450px;
+    margin-bottom: 30px;
+}
+.hinhloiich{
+   
+}
+.diadiem
+{
+margin-left: 20px;
+}
+.diadiem ul
+{
+list-style: none;
+
+}
+.top{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    color:black;
+}
+
+
+.des{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    color:black;
+
+}
+.menu-ngang-cac-menu{
+    position: relative;
+    
+}
+.menu-ngang-cac-menu ul li a {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-left: 12px;
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    color: #333;
+  }
+.menu_dropdown{
+    position: absolute;
+    top: 78px;
+    left: 20px;
+    width: 100px;
+    height: 284px;
+    flex-direction: column;
+    box-shadow: rgba(60, 64, 67, 0.1) 0px 1px 0px 0px, rgba(60, 64, 67, 0.2) 6px 3px 8px 1px;
+    display: none;
+}
+.icon{
+    padding: 5px;
+    margin-right: 40px;
+}
+.item{
+    background-color: white;
+    padding: 5px 8px;
+}
+.item>a{
+    width: 100%;
+}

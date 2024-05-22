@@ -1,0 +1,622 @@
+/* .row {
+    margin-left: 0;
+    margin-right: 0;
+} */
+.slider_home .wrap {
+    height: initial !important;
+}
+.slider_home .wrap img {
+    max-width: 100% !important;
+}
+.home_form {
+    text-align: center;
+}
+.home_form .title_home
+{
+    margin-bottom: 15px;
+}
+.home_form .container
+{
+    
+}
+.home_form .col-md-6 
+{
+    padding-left: 0px;
+    padding-right: 0px;
+
+}
+
+.home_form .img_holder {
+    height: 100%;
+}
+.home_form img {
+    height: 100%;
+    object-fit: cover;
+}
+.wrap_top {
+    background-color: antiquewhite;
+    padding: 40px;
+    text-align: center;
+}
+.wrap_top .title_home {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.wrap_top .res_home {
+    background-color: #FBB407;
+    /* text-transform: uppercase; */
+    display: inline-block;
+    padding: 7px 14px;
+    border: 1px solid #bd0502;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    font-size: 10px;
+}
+.wrap_top .res_home:hover
+{
+    transition: all .7s;
+    transform: scale(1.1);
+}
+.slider_home .owl-prev
+{
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    background: initial !important;
+    font-size: 50px !important;
+    transform: translate(0, -56%);
+    color: #000 !important;
+}
+.slider_home .owl-next
+{
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    background: initial !important;
+    font-size: 50px !important;
+    transform: translate(0, -56%);
+    color: #000 !important;
+}
+.home_form {
+}
+.title_page {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.detail-content {}
+.detail-content .nhuongquyen1 {
+    margin-bottom: 50px;
+}
+.detail-content .nhuongquyen1 .top h3 {
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: red;
+}
+.detail-content .nhuongquyen1 .top h5 {
+    font-size: 12px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: rgb(66, 172, 96);
+    text-align: center;
+}
+.detail-content .nhuongquyen1 .box_left {
+    position: relative;
+}
+.detail-content .nhuongquyen1 .box_left .title {
+    background-position: center;
+    background-size: contain;
+    width: 500px;
+    height: 100px;
+    background-repeat: no-repeat;
+    padding: 0px 20px 0 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+    color: royalblue;
+    font-weight: bold;
+}
+.detail-content .nhuongquyen1 .box_left .bg {
+    background-color: rgb(235, 105, 0);
+    width: 100%;
+    height: 30px;
+    display: block;
+    margin-bottom: 10px;
+}
+.detail-content .nhuongquyen1 .box_left .text_ct {
+    border: 5px solid rgb(189, 5, 2);
+    border-top-width: 70px;
+    padding: 50px 10px 20px;
+}
+.detail-content .nhuongquyen1 .bg1 {
+    background-color: rgb(189, 5, 2);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 30px;
+    display: inline-block;
+    color: #fff;
+    font-weight: bold;
+    font-size: 30px;
+    max-width: 300px;
+    margin-left: 50px;
+    line-height: 1.3;
+    text-align: center;
+}
+.text_ct .ct_cus {
+    background-color: rgb(189, 5, 2);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 30px;
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    padding: 5px 10px;
+    margin-bottom: 10px
+}
+.detail-content .nhuongquyen1 .right {
+    text-align: center;
+    text-transform: uppercase;
+}
+.detail-content .nhuongquyen1 .right .images {
+    margin-bottom: 20px;
+    height: 80%;
+}
+.detail-content .nhuongquyen1 .right .images img {
+    height: 100%;
+    object-fit: cover;
+}
+.text_ct .list {}
+.text_ct .list li {
+    margin-bottom: 10px
+}
+.text_ct .list li i {
+    margin-right: 10px;
+    color: rgb(62, 123, 232);
+}
+.nhuongquyen2 {
+    margin-bottom: 30px;
+}
+.detail-content .nhuongquyen2 .title {
+    width: 500px;
+    /* background-image: url(public/images/bg2.png) ; */
+    background-repeat: no-repeat;
+    height: 81px;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    margin: 30px auto;
+}
+.detail-content .nhuongquyen2 .list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.detail-content .nhuongquyen2 .list .item {
+    width: 12.5%;
+    text-align: center;
+    padding-right: 50px;
+    position: relative;
+}
+.detail-content .nhuongquyen2 .list .item::before {
+    content: '';
+    position: absolute;
+    top: 30%;
+    right: 0px;
+    background-color: rgb(189, 5, 2);
+    width: 50px;
+    height: 3px;
+    display: block;
+}
+.detail-content .nhuongquyen2 .list .item:last-child:before {
+    display: none;
+}
+.detail-content .nhuongquyen2 .list .item .images {
+    background-color: rgb(189, 5, 2);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.detail-content .nhuongquyen2 .list .item .images img {
+    width: 40px;
+}
+.detail-content .nhuongquyen2 .list .item span {
+    font-weight: bold;
+}
+.detail-content .nhuongquyen3 {
+    /* font-weight: bold; */
+    margin-bottom: 60px;
+    box-shadow: rgba(50, 50, 93, 0.45) 0px 30px 60px -12px, rgba(0, 0, 0, 0.5) 0px 18px 36px -18px;
+    padding: 20px;
+}
+.detail-content .nhuongquyen3 h3 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.detail-content .nhuongquyen3 h5 {
+    text-align: center;
+    color: red;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.detail-content .nhuongquyen3 ul li {
+    /* font-size: 18px; */
+    margin-bottom: 0px
+}
+.blog-item a {
+    color: #333;
+}
+.blog-item .box_content {
+    margin-bottom: 15px;
+}
+.blog-item .box_content .meta-info {
+    display: flex;
+}
+.blog-item .box_content .meta-info li {
+    margin-right: 15px;
+}
+.blog-item .box_content .blog_title h3 {
+    color: red;
+    line-height: 20px;
+    font-size: 12px;
+    font-weight: 400;
+}
+.blog-item .box_content .text {
+    display: none;
+}
+/* CSS PAGE LỢI ÍCH */
+.loiich1 {
+    /* background-color: rgb(247, 131, 0); */
+    padding: 100px 30px 20px 30px;
+    position: relative;
+}
+.loiich .title {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 120px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(248, 240, 0);
+    font-size: 30px;
+    flex-direction: column;
+    margin: 30px auto;
+}
+.loiich.loiich1 .title {
+    position: absolute;
+    top: -80px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.loiich .title p {
+    display: block;
+}
+.loiich .title p:last-child {
+    color: rgb(189, 5, 2);
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.loiich1 .list_item {
+    margin-bottom: 70px
+}
+.loiich1 .item {
+    position: relative;
+    background-color: #FFF7D8;
+    padding: 70px 20px 20px 20px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    height: 100%;
+    font-weight: bolder;
+}
+.loiich1 .item .top {
+    background-color: rgb(189, 5, 2);
+    color: #fff;
+    font-weight: bolder;
+    padding: 10px 0;
+    text-align: center;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    position: absolute;
+    width: 90%;
+    height: 60px;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.list_is {}
+.list_is .is-item {
+    margin-bottom: 30px;
+}
+.list_is .is-item.end {}
+/* .list_is .is-item .icon {
+    margin: 0 50px 1em;
+    max-width: 60px;
+}
+.list_is .is-item .icon img {} */
+/* .list_is .is-item .box {
+    width: 475px;
+} */
+.list_is .is-item .box .top {
+    padding: 10px 20px 10px 20px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    height: 50px;
+}
+.list_is .is-item .box .top span {
+    margin-bottom: 10px
+}
+.list_is .is-item .box .des {
+    padding: 10px 20px 2px 20px;
+    background-color: rgb(255, 255, 255);
+    /* font-size: 16px; */
+    height: 70px;
+}
+.loiich2 {
+    /* background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 32%, rgba(237, 148, 74, 1) 63%, rgba(226, 151, 81, 1) 100%); */
+    padding: 30px;
+}
+.loiich2 .box_item {
+    position: relative;
+    padding-left: 30px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+.loiich2 .box_item::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 4px;
+    height: 100%;
+    display: block;
+    z-index: 10;
+    background-color: rgb(189, 5, 2);
+}
+.loiich2 .box_item::before {
+    content: '';
+    position: absolute;
+    left: -4px;
+    top: 0;
+    width: 15px;
+    height: 15px;
+    display: block;
+    z-index: 10;
+    background-color: rgb(189, 5, 2);
+    z-index: 12;
+    border-radius: 50%;
+}
+.loiich2 .box_item .top {
+    background-color: rgb(189, 5, 2);
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    font-weight: bold;
+    color: #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.loiich2 .bottom {
+    background-color: rgb(189, 5, 2);
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    color: rgb(248, 240, 0);
+    padding: 15px;
+    display: inline-block;
+    margin: 0 auto;
+    font-weight: bold;
+}
+/* END CSS LỢI ÍCH */
+.page-damohinh .img {
+    margin-bottom: 50px;
+    border: 10px solid rgb(189, 5, 2);
+}
+.page-damohinh img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.block1 h1 span
+{
+  font-size: 14px;
+}
+.gioithieu {}
+.gioithieu .gioithieu_tit {
+    color: rgb(189, 5, 2);
+    text-align: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.gioithieu p {
+    line-height: 36px;
+    font-size: 20px;
+    text-align: justify;
+}
+.gioithieu p span
+{
+    font-size: 12px !important;
+}
+.block1 {
+    margin-bottom: 40px;
+}
+.hr {
+    background-color: rgb(189, 5, 2);
+    height: 5px;
+    margin: 30px 0;
+    width: 100%;
+}
+.block2 {}
+.block2 .img img {
+    max-height: 500px;
+    border-radius: 15px;
+
+}
+/* .chi-tiet-bai-viet :hover img{transition:all .7s;transform:scale(1.1)} */
+
+.chi-tiet-bai-viet img {
+    width: initial !important;
+    height: initial !important;
+    object-fit: cover;
+    border: 5px solid rgb(189, 5, 2);
+    margin-bottom: 10px;
+    transition: all .7s;
+
+}
+
+@media screen and (max-width:991.9999px) {}
+@media screen and (max-width:767px) {
+    .wrap_top .title_home{
+        font-size: 20px;
+    }
+    .home_form {
+        padding-top: 10px;
+        margin-bottom: 10px;
+    }
+    .home_form .img_holder{
+        width: 100%;
+        border: 10px solid rgb(189, 5, 2);
+        height: 100%;
+    }
+    .home_form img{
+        object-fit: cover;
+        width: 100%;
+    }
+    .detail-content .nhuongquyen1 {
+        margin-bottom: 20px
+    }
+    .detail-content .nhuongquyen1 .left {
+        margin-bottom: 30px;
+    }
+    .detail-content .nhuongquyen1 .box_left .title {
+        width: 100%;
+        background-size: contain;
+        height: 80px;
+        font-size: 12px;
+        margin-bottom: 30px
+    }
+    .detail-content .nhuongquyen2 .title {
+        width: 100%;
+        background-size: contain;
+        height: 60px;
+        font-size: 17px;
+        margin: initial;
+        margin-bottom: 30px
+    }
+    .detail-content .nhuongquyen2 .list {
+        flex-wrap: wrap;
+    }
+    .detail-content .nhuongquyen2 .list .item {
+        width: 49%;
+        margin-bottom: 30px;
+        padding-right: 0;
+    }
+    .detail-content .nhuongquyen2 .list .item::before {
+        display: none;
+    }
+    .detail-content .nhuongquyen2 .list .item .images {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 20px
+    }
+    .detail-content .nhuongquyen2 .list .item .images img {
+        width: 60%;
+    }
+    .detail-content .nhuongquyen2 .list .item span {
+    }
+    .detail-content .nhuongquyen3 h3 {
+        font-size: 20px;
+    }
+    .detail-content .nhuongquyen3 h5 {
+        font-size: 18px;
+    }
+    .title_page {
+        font-size: 20px;
+    }
+    .detail-content .nhuongquyen3 ul li {
+        font-size: 15px;
+    }
+    /* CSS PAGE LỢI ÍCH */
+    .loiich .title {
+        width: 100%;
+        background-size: cover;
+        height: 90px;
+        font-size: 17px;
+    }
+    .loiich.loiich1 .title {
+        position: relative;
+        top: initial;
+        transform: translateY(0);
+        left: initial;
+    }
+    .loiich .title p:last-child {
+        margin-top: 15px
+    }
+    .loiich .title p {
+        margin-bottom: 0;
+    }
+    .loiich1 .item .top {
+        font-size: 12px;
+    }
+    .loiich2 .box_item {
+        margin-bottom: 20px;
+    }
+    .list_is .is-item {
+        flex-wrap: wrap;
+    }
+    .list_is .is-item .icon {
+        width: 100%;
+        margin: 0 auto 1em;
+    }
+    .list_is .is-item .box .top {
+        font-size: 15px;
+        height: initial;
+    }
+    .list_is .is-item .box .des {
+        height: initial;
+    }
+    .loiich1 {
+        padding: 30px 0 20px 0;
+    }
+    /* END CSS LỢI ÍCH */
+    .page-damohinh img {
+        height: 200px;
+    }
+    .consultations-area .contact-info {
+        width: 100%;
+        margin-bottom: 0px;
+        padding-top: 5px;
+    }
+    .bocongthuong
+    {
+        margin-top: -10px;
+        margin-bottom: -10px;
+    }
+    .consultations-area .consultations-form-box {
+        width: 100%;
+        padding: 15px 15px;
+    }
+    .block2 .img  {
+ 
+        margin-bottom: 30px;
+    }
+}
