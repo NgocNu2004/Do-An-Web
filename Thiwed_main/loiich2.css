@@ -70,8 +70,8 @@ body {
   display: flex;
   align-items: center;
 }
-.menu-ngang-logo-trai img {
-  height: 70%;
+.menu-ngang-logo-trai img{
+  height: 100%;
   margin-left: 50%;
 }
 .menu-ngang-logo-va-tim-kiem {
@@ -223,8 +223,61 @@ body {
   position: absolute;
   margin-top: -500px;
   width: 100%;
+  height: 505px;
   z-index: 1;
 }
 .icon>i{
   font-size: 38px;
+}
+.float-icon-hotline {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.float-icon-hotline ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.float-icon-hotline ul li {
+  margin-bottom: 10px;
+}
+
+.float-icon-hotline ul li a {
+  display: block;
+  text-decoration: none;
+  color: #1313fd;
+  background-color: #fefdfd;
+  padding: 10px;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(240, 10, 221, 0.95);
+  position: relative;
+}
+
+.float-icon-hotline ul li a i {
+  font-size: 20px;
+}
+
+.float-icon-hotline ul li a span {
+  display: none;
+  position: absolute;
+  top: 0px;
+  right: calc(100% + 20px);
+  background-color: #f5c7c7;
+  padding: 10px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color:#000000
+  
+}
+
+.float-icon-hotline ul li a:hover span {
+  display: block;
+}
+.hotline_float_icon:hover a {
+  color: rgb(244, 35, 35);
+  background-color: rgb(102, 99, 99);
 }

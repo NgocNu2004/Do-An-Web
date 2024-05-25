@@ -4,33 +4,69 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="dangky2.css" />
+    <link rel="stylesheet" href="./dangky2.css" />
+    <link rel="stylesheet" href="./loiich2.css" />
+   
   </head>
   <body>
     <div class="menu-ngang">
       <!--menu ngang -->
-      <div class="menu-ngang-logo-trai"><a href="doanwed.html"><img src="logo(1).png" style="width: 80px;height: 80px;margin-left: 150px;"> </a></div>
+      <div class="menu-ngang-logo-trai"><a href="./doanwed.html"><img src="logo(1).png" style="width: 80px;height: 80px;margin-left: 150px;"> </a></div>
 
 
       <div class="menu-ngang-logo-va-tim-kiem">
         <div class="menu-ngang-logo-va-tim-kiem-phan-ben-trong">
-          <img src="search.png" alt="" />
-          <button><a href="dangky2.html">Đăng ký</a></button>
+          <img src="./search.png" alt="" />
+          <button><a href="./dangky2.html">Đăng ký</a></button>
         </div>
       </div>
       <!--menu ngang end -->
     </div>
-    <img class="anh-bia" src="bia.jpg" alt="" />
+    <img class="anh-bia" src="./bia.jpg" alt="" />
     <!--phần form đăng ký-->
     <form>
-      <div class="form-dang-ky">
+      <div class="form-dang-ky" method="post" onsubmit="kiemtra(event)">
         <h2>Nhập thông tin đăng ký</h2>
-        <input type="text" placeholder="Tên đăng nhập..." />
-        <input type="tel" placeholder="Nhập số điện thoại..." />
-        <input type="password" placeholder="Mật khẩu" />
-        <input type="password" placeholder="Nhập lại mật khẩu..." />
-        <button>Đăng ký</button>
+        <input type="text" id="username" placeholder="Tên đăng nhập..." />
+        <input type="email" id="email" placeholder="Nhập gmail..." />
+        <input type="password" id="password" placeholder="Mật khẩu" />
+        <input type="password" id="confirmPassword" placeholder="Nhập lại mật khẩu..." />
+        <button type="submit">Đăng ký</button>
       </div>
+
     </form>
+    <script>
+      function kiemtra(event) {
+          event.preventDefault(); // Ngăn chặn form gửi đi mặc định
+      
+          // Lấy giá trị từ các trường input
+          var username = document.getElementById("username").value;
+          var email = document.getElementById("email").value;
+          var password = document.getElementById("password").value;
+          var confirmPassword = document.getElementById("confirmPassword").value;
+      
+          // Kiểm tra các trường input có rỗng không
+          if (username === '' || email === '' || password === '' || confirmPassword === '') {
+              alert("Vui lòng điền đầy đủ thông tin đăng ký.");
+              return;
+          }
+      
+          // Kiểm tra xác nhận mật khẩu
+          if (password !== confirmPassword) {
+              alert("Mật khẩu và xác nhận mật khẩu không khớp.");
+              return;
+          }
+      
+          // Thực hiện xử lý đăng ký (ở đây có thể là gửi yêu cầu đăng ký đến máy chủ)
+      
+          // Hiển thị thông báo đăng ký thành công
+          alert("Đăng ký thành công!");
+      
+          // Đặt lại form nếu cần
+          document.querySelector("form").reset();
+      }
+      
+      document.querySelector("form").addEventListener("submit", kiemtra);
+    </script>
   </body>
 </html>

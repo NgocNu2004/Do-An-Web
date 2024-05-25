@@ -54,10 +54,11 @@ font-family: sans-serif; color: #222; }
   .menu-ngang-logo-va-tim-kiem-phan-ben-trong button {
     background-color: rgb(255, 0, 0);
     align-items: center;
-    width: 100%;
+    width: 90%;
     height: 120%;
     border: none;
-    margin-left: 10%;
+    margin-left: 40px;
+    margin-right: 40px;
     color: aliceblue;
     font-family: "Open Sans", sans-serif;
   }
@@ -264,7 +265,7 @@ height: 150px;}
     justify-content: center;
     margin-top: 40px;
     margin-bottom: 0px;
-background-color: rgb(255, 160, 220);
+background-color:red;
 width: 100%;
 height: 100px;}
 .list_icon{
@@ -294,7 +295,7 @@ height: 100px;}
 }
 
 footer{
-    background-color: #fbcfec;
+    background-color: #f3530e;
     height: 100%;
    width: 100%;
 }
@@ -368,9 +369,7 @@ footer{
     margin-left: 450px;
     margin-bottom: 30px;
 }
-.hinhloiich{
-   
-}
+
 .diadiem
 {
 margin-left: 20px;
@@ -429,3 +428,55 @@ list-style: none;
 .item>a{
     width: 100%;
 }
+.float-icon-hotline {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.float-icon-hotline ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.float-icon-hotline ul li {
+    margin-bottom: 10px;
+}
+
+.float-icon-hotline ul li a {
+    display: block;
+    text-decoration: none;
+    color: #1313fd;
+    background-color: #fefdfd;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(240, 10, 221, 0.95);
+    position: relative;
+}
+
+.float-icon-hotline ul li a i {
+    font-size: 20px;
+}
+
+.float-icon-hotline ul li a span {
+    display: none;
+    position: absolute;
+    top: 0px;
+    right: calc(100% + 20px);
+    background-color: #f5c7c7;
+    padding: 10px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color:#000000
+    
+}
+
+.float-icon-hotline ul li a:hover span {
+    display: block;
+}
+.hotline_float_icon:hover a {
+    color: rgb(244, 35, 35);
+    background-color: rgb(102, 99, 99);
+  }

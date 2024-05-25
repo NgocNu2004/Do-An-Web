@@ -4,13 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="./lienhe2.css" />
-    <link rel="stylesheet" href="./doanwed.css">
+    <link rel="stylesheet" href="./loiich2.css">
+    <link rel="stylesheet" href="./index.js">
   </head>
   <body>
     <div class="menu-ngang">
       <!--menu ngang -->
-      <div class="menu-ngang-logo-trai"><img src="./logo(1).png" alt="" /></div>
+      <div class="menu-ngang-logo-trai"><a href="doanwed.html"><img src="logo(1).png" style="width: 80px;height: 80px;margin-left: 150px;"> </a></div>
+
 
       <div class="menu-ngang-cac-menu">
         <!--menu-ngang-cac-menu -->
@@ -41,30 +44,33 @@
         <li style="margin-left: 10%">
           <a href="./doanwed.html">Trang chủ </a> > Liên Hệ
         </li>
-        <li style="margin-left: 70%">Chia sẽ</li>
+      
       </ul>
       <!--menu phụ ở giữa end-->
     </div>
     <div class="thong-tin-lien-he">
       <h2>THÔNG TIN LIÊN HỆ</h2>
       <div class="hop-chua-lien-he">
-        <div class="o-1">
-          <div class="form-dien-thong-tin">
-            <div class="form-dien-thong-tin1">
-              <form action="">
-                <input type="text" placeholder="Họ tên*" />
-                <input type="text" placeholder="Điện thoại*" />
-                <input type="text" placeholder="Email*" />
-              </form>
-            </div>
-            <div class="form-dien-thong-tin2">
-              <form action="">
-                <textarea name="" id="">Nội dung...</textarea>
-              </form>
-            </div>
+          <div class="o-1">
+              <div class="form-dien-thong-tin">
+                  <div class="form-dien-thong-tin1">
+                      <form id="contactForm">
+                          <input type="text" id="hoTen" placeholder="Họ tên*" />
+                          <input type="text" id="dienThoai" placeholder="Điện thoại*" />
+                          <input type="text" id="email" placeholder="Email*" />
+                      </form>
+                  </div>
+                  <div class="form-dien-thong-tin2">
+                      <form id="contactForm">
+                          <textarea id="noiDung" placeholder="Nội dung..."></textarea>
+                      </form>
+                  </div>
+              </div>
+              <button onclick="guiThongTin()"><b>Gửi thông tin</b></button>
           </div>
-          <button><b>Gửi thông tin</b></button>
-        </div>
+      </div>
+  </div>
+  
 
         <div class="thong-tin-lien-he">
           <p>
@@ -89,5 +95,36 @@
       loading="lazy"
       referrerpolicy="no-referrer-when-downgrade"
     ></iframe>
+    <div class="float-icon-hotline">
+      <ul>
+          <li class="hotline_float_icon">
+              <a href="tel:0969094969">
+                  <i class='bx bxs-phone-call'></i><span>Hotline: 0969094969</span>
+              </a>
+          </li>
+          <li class="hotline_float_icon">
+              <a href="//zalo.me/https://zalo.me/0963434949" rel="nofollow" target="_blank">
+                  <i class='bx bxl-zoom'></i><span>Nhắn tin qua Zalo</span>
+              </a>
+          </li>
+          <li class="hotline_float_icon">
+              <a href="https://www.facebook.com/Nhuongquyenthuonghieugaranfkt?mibextid=LQQJ4d" rel="nofollow" target="_blank">
+                  <i class='bx bxl-facebook-square'></i><span>Fanpage Facebook</span>
+              </a>
+          </li>
+          <li class="hotline_float_icon">
+              <a href="https://m.me/https://m.me/104852848848606478" rel="nofollow" target="_blank">
+                  <i class='bx bx-message'></i><span>Nhắn tin qua Facebook</span>
+              </a>
+          </li>
+          <li class="hotline_float_icon">
+              <a href="https://www.youtube.com/channel/UCOfsSyjpYMr4Oo_Fkd45zDA?sub_confirmation=1" rel="nofollow" target="_blank">
+                  <i class='bx bxl-youtube'></i><span>Kênh YouTube</span>
+              </a>
+          </li>
+      </ul>
+  </div>
+  <script src="././index.js"></script>
+<script src="././dropdown.js"></script>
   </body>
 </html>

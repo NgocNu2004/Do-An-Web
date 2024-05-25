@@ -120,7 +120,7 @@ body {
 /*CSS cho phần liên hệ */
 .thong-tin-lien-he {
   display: flex;
-  width: 80%;
+  width: 60%;
   margin-left: auto;
   margin-right: auto;
   flex-direction: column;
@@ -139,11 +139,9 @@ body {
 .hop-chua-lien-he {
   display: flex;
   margin-top: 30px;
-  border: 0.5px solid black;
+  border: 0.5px solid rgb(6, 4, 4);
 }
-.form-dien-thong-tin {
-  display: flex;
-}
+
 .form-dien-thong-tin1 {
   width: 50%;
 }
@@ -155,13 +153,15 @@ body {
 .o-1 .form-dien-thong-tin1 form input {
   width: 250px;
   height: 35px;
+  margin-right: 50px;
   margin: 10px;
-  border: 0.5px solid rgb(114, 114, 114);
+  border: 1px solid rgb(114, 114, 114);
 }
 .o-1 .form-dien-thong-tin2 form textarea {
-  width: 200px;
-  height: 200px;
-  margin: 10px;
+  width: 500px;
+  height: 100px;
+
+  margin-right: 500px;
   border: 0.5px solid rgb(114, 114, 114);
 }
 .o-1 .form-dien-thong-tin2 {
@@ -176,7 +176,10 @@ body {
   margin-left: 10px;
   margin-bottom: 10px;
 }
-
+.o-1:hover button b{
+  background-color:rgb(14, 9, 9);
+  transition: 0.5s;
+}
 .thong-tin-lien-he p {
   font-family: "Open Sans", sans-serif;
   margin-left: 20px;
