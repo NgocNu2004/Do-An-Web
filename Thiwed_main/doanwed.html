@@ -69,10 +69,13 @@
         let currentIndex = 0;
 
         function nextImage() {
+            console.log("add");
             currentIndex = (currentIndex + 1) % images.length;
             const imgElement = document.querySelector(".slideshow img");
             imgElement.src = images[currentIndex];
         }
+
+        
     </script>
     </div>
 <div class="tuade">
@@ -185,5 +188,5 @@
 
 </div>
 
-<script src="././index.js"></script>
+<script src="./index.js"></script>
 <script src="././dropdown.js"></script>
